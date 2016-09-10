@@ -1,0 +1,7 @@
+Important Shortcuts
+alt+s+u - update the table of contents in Word
+alt+h+fp - select format painter in Excel
+alt+shift+k - to get all the shortcuts in R
+ctrl + ~ means all formulas in excel
+ctrl + shift + enter for applying formula for all selected cells
+	

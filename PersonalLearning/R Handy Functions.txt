@@ -1,0 +1,4 @@
+rm(list = ls())
+USArrest <- read.csv("C:Users/HS/Desktop/BDAP/ML/ML102/protein.csv",header = T)
+?par
+install.packages("arules")
