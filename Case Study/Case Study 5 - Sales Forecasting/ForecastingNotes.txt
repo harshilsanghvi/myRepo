@@ -1,0 +1,5 @@
+1. check the trend component. check whether it is positive or negative trend 
+2. you want a mathematical function that describes the trend
+3. you also have to chec the seasonality component.
+4. average removes the seasonality component.
+
