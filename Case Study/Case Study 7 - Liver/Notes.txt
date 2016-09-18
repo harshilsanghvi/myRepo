@@ -1,0 +1,6 @@
+AIC
+VIF
+the more correlation variables the standard error for each co efficient may be more
+VIF should be maximum 10 and not more than that
+If you want to reduce VIF you may need to remove correlated variables. but then it will reduce the R square.
+Need to balance both 
