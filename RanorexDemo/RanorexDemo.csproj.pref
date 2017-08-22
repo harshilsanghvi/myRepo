@@ -1,0 +1,27 @@
+﻿<Properties>
+  <Array name="active">
+    <Element value="Driver_RanorexDemo.cs" />
+  </Array>
+  <Array name="bookmarks">
+    <Element value="Breakpoint|D:\Users\hsanghvi\Desktop\RanorexDemo\RanorexDemo\Driver_RanorexDemo.cs|66|5|True|Break||" />
+  </Array>
+  <Array name="files">
+    <Element value="Library\Application\DemoAutFunction.cs" />
+    <Element value="Driver_RanorexDemo.cs" />
+    <Element value="TestScript\LoginDemoaut_CM.cs" />
+    <Element value="Library\Utilities\Browser.cs" />
+    <Element value="Library\Utilities\ReportClass.cs" />
+  </Array>
+  <Properties name="projectSavedData">
+    <Properties name="customTool">
+      <runOnBuild value="False" />
+    </Properties>
+    <Array name="recentusercodeselections">
+      <Element value="RanorexDemo.TestScript.AppFunctions.ValidateConfOrder(RepoItemInfo checkinfo)" />
+      <Element value="RanorexDemo.TestScript.AppFunctions.ValidateConfOrder(String webElement)" />
+      <Element value="RanorexDemo.TestScript.AppFunctions.ValidateConfOrder()" />
+      <Element value="RanorexDemo.TestScript.UserCodeCollection1.UserCodeMethod()" />
+      <Element value="RanorexDemo.TestScript.UserCodeCollection1.FormatBookingNumber(String strBookingNumb)" />
+    </Array>
+  </Properties>
+</Properties>

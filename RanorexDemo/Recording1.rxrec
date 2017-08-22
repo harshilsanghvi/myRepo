@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="6b9e7e38-47c0-4412-87ed-b4b8e86e95c7"
+mode="Desktop"
+rxversion="7.0">
+	<name>
+		Recording1
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Recording1"
+	namespace="RanorexDemo">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+	</recorditems>
+	<repository
+	id="b14062bf-779c-4a07-8cce-639e278f7193"
+	name="RanorexDemoRepository"
+	relativepath="RanorexDemoRepository.rxrep"
+	rxversion="7.0">
+		<codegen
+		classname="RanorexDemoRepository"
+		namespace="RanorexDemo">
+		</codegen>
+		<rootfolder
+		id="a51218a7-459b-436d-b43f-50a8126b02a4"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Recording1.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>
