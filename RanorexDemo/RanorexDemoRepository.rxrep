@@ -1,0 +1,400 @@
+﻿<repository
+id="b14062bf-779c-4a07-8cce-639e278f7193"
+name="RanorexDemoRepository"
+rxversion="7.0">
+	<codegen
+	classname="RanorexDemoRepository"
+	namespace="RanorexDemo">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="a51218a7-459b-436d-b43f-50a8126b02a4"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="ffa7b769-9e24-4fcd-bcc2-c344a4a19910"
+		isrooted="True"
+		name="Mercury"
+		refpath="/dom[@domain='demoaut.com']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<folder
+			addcaps="unknown,webelement,tabletag"
+			capname="table"
+			id="df092cbe-1535-4391-8d51-dff2c77ff24b"
+			isrooted="True"
+			name="Home"
+			refpath="/dom[@domain='demoaut.com']/body/div/table/tbody/tr/td[2]/table/tbody/tr[4]/td/table/tbody/tr/td[2]/table/tbody/tr[2]/td[3]/form[@name='home']/table/tbody/tr[4]/td/table"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="unknown,webelement,inputtag"
+				capname="inputtag"
+				id="b0d22b6d-d50d-4558-bca9-0d783f3ee7ea"
+				name="UserName"
+				refimgid="84219e43-2701-4b9f-9037-3f271afa0982"
+				refpath="/dom[@domain='demoaut.com']/body/div/table/tbody/tr/td[2]/table/tbody/tr[4]/td/table/tbody/tr/td[2]/table/tbody/tr[2]/td[3]/form/table/tbody/tr[4]/td/table/tbody/tr[2]/td[2]/input[@name='userName']"
+				searchtimeout="30000ms">
+					/dom[@domain='demoaut.com']//table/?/?/tr/td[2]/table/tbody/tr[4]/?/?/table/?/?/tr/td[2]/table/tbody/tr[2]/td[3]/form[@name='home']/table/tbody/tr[4]/?/?/table/tbody/tr[2]/td[2]/input[@name='userName']
+				</item>
+				<item
+				addcaps="unknown,webelement,inputtag"
+				capname="inputtag"
+				id="b066c413-55ca-47b4-98ad-0261afe03fd3"
+				name="Password"
+				refimgid="242305e5-1b64-4ff6-845a-fb556b136036"
+				refpath="/dom[@domain='demoaut.com']/body/div/table/tbody/tr/td[2]/table/tbody/tr[4]/td/table/tbody/tr/td[2]/table/tbody/tr[2]/td[3]/form/table/tbody/tr[4]/td/table/tbody/tr[3]/td[2]/input[@name='password']"
+				searchtimeout="30000ms">
+					/dom[@domain='demoaut.com']//table/?/?/tr/td[2]/table/tbody/tr[4]/?/?/table/?/?/tr/td[2]/table/tbody/tr[2]/td[3]/form[@name='home']/table/tbody/tr[4]/?/?/table/tbody/tr[3]/td[2]/input[@name='password']
+				</item>
+				<item
+				addcaps="unknown,webelement,inputtag"
+				capname="inputtag"
+				id="5d75e194-b121-46b6-99aa-30ce06a90ac8"
+				name="Login"
+				refimgid="26fcd1cb-e64c-4483-b221-da4e905ab2f4"
+				refpath="/dom[@domain='demoaut.com']/body/div/table/tbody/tr/td[2]/table/tbody/tr[4]/td/table/tbody/tr/td[2]/table/tbody/tr[2]/td[3]/form/table/tbody/tr[4]/td/table/tbody/tr[4]/td[2]/div/input[@name='login']"
+				searchtimeout="30000ms">
+					/dom[@domain='demoaut.com']//table/?/?/tr/td[2]/table/tbody/tr[4]/?/?/table/?/?/tr/td[2]/table/tbody/tr[2]/td[3]/form[@name='home']/table/tbody/tr[4]/?/?/table/tbody/tr[4]/td[2]/?/?/input[@name='login']
+				</item>
+				<basepath>
+					/dom[@domain='demoaut.com']//table/?/?/tr/td[2]/table/tbody/tr[4]/?/?/table/?/?/tr/td[2]/table/tbody/tr[2]/td[3]/form[@name='home']/table/tbody/tr[4]/?/?/table
+				</basepath>
+			</folder>
+			<basepath>
+				/dom[@domain='demoaut.com']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="f43b7194-26f3-4492-b36b-13ad496843b6"
+		isrooted="True"
+		name="MercuryFlight"
+		refpath="/dom[@domain='newtours.demoaut.com']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="23434dde-db40-40a9-b543-b618fc5323c6"
+			name="OutFlight"
+			refimgid="53dbc0d1-507f-474c-ac51-8d4bf36a0aef"
+			refpath="/dom[@domain='newtours.demoaut.com']/body/div/table/tbody/tr/td[2]/table/tbody/tr[4]/td/table/tbody/tr/td[2]/table/tbody/tr[5]/td/form/table[1]/tbody/tr[5]/td[1]/input[@name='outFlight']"
+			searchtimeout="30000ms">
+				/dom[@domain='newtours.demoaut.com']//table/?/?/tr/td[2]/table/tbody/tr[4]/?/?/table/?/?/tr/td[2]/table/tbody/tr[5]/?/?/form[@name='results']/table[1]/tbody/tr[5]/td[1]/input[@name='outFlight']
+			</item>
+			<item
+			addcaps="unknown,webelement,fonttag"
+			capname="fonttag"
+			id="5b3b4ff2-a182-414e-9e30-93eb297ac5fe"
+			name="ItineraryConfimration"
+			refimgid="8a670b03-a0f9-44a9-b974-4fa9cf76c503"
+			refpath="/dom[@domain='newtours.demoaut.com']/body/div/table/tbody/tr/td[2]/table/tbody/tr[4]/td/table/tbody/tr[1]/td[2]/table/tbody/tr[3]/td/p/font[@innertext='                Please print a copy of this screen for your records. Thank you for choosing         Mercury Tours.                ']/b/font[@innertext='Your         itinerary has been booked!']"
+			searchtimeout="30000ms">
+				/dom[@domain='newtours.demoaut.com']//table/?/?/tr/td[2]/table/tbody/tr[4]/?/?/table/tbody/tr[1]/td[2]/table/tbody/tr[3]//font[@innertext~'^\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ Please']/b/font[@innertext~'^Your\ \ \ \ \ \ \ \ \ itinerary\ h']
+			</item>
+			<folder
+			addcaps="unknown,webelement,tabletag"
+			capname="table"
+			id="08c177fb-6be7-4d39-b383-87490e9d7adc"
+			isrooted="True"
+			name="BookAFlight"
+			refpath="/dom[@domain='newtours.demoaut.com']/body/div/table/tbody/tr/td[2]/table/tbody/tr[4]/td/table/tbody/tr/td[2]/table/tbody/tr[5]/td/form[@name='findflight']/table"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="unknown,webelement,inputtag"
+				capname="inputtag"
+				id="c40a6713-d48d-447a-8768-cfff61538245"
+				name="TripType"
+				refimgid="5090de08-3d80-4327-9178-036fdd5f4bcb"
+				refpath="/dom[@domain='newtours.demoaut.com']/body/div/table/tbody/tr/td[2]/table/tbody/tr[4]/td/table/tbody/tr/td[2]/table/tbody/tr[5]/td/form/table/tbody/tr[2]/td[2]/b/font/input[@name='tripType' and @type='radio' and @value='oneway']"
+				searchtimeout="30000ms">
+					/dom[@domain='newtours.demoaut.com']//table/?/?/tr/td[2]/table/tbody/tr[4]/?/?/table/?/?/tr/td[2]/table/tbody/tr[5]/?/?/form[@name='findflight']/table/tbody/tr[2]/td[2]/?/?/font[@innertext~'^\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ ']/input[@type='radio' and @value='oneway']
+				</item>
+				<item
+				addcaps="unknown,webelement,selecttag"
+				capname="selecttag"
+				id="f047aa0b-67b4-4ce7-b82a-4b5a0038a47f"
+				name="PassCount"
+				refimgid="68ad9e2c-bcfe-44cb-917d-b992c71bef73"
+				refpath="/dom[@domain='newtours.demoaut.com']/body/div/table/tbody/tr/td[2]/table/tbody/tr[4]/td/table/tbody/tr/td[2]/table/tbody/tr[5]/td/form/table/tbody/tr[3]/td[2]/b/select[@name='passCount']"
+				searchtimeout="30000ms">
+					/dom[@domain='newtours.demoaut.com']//table/?/?/tr/td[2]/table/tbody/tr[4]/?/?/table/?/?/tr/td[2]/table/tbody/tr[5]/?/?/form[@name='findflight']/table/tbody/tr[3]/td[2]/?/?/select[@name='passCount']
+				</item>
+				<item
+				addcaps="unknown,webelement,selecttag"
+				capname="selecttag"
+				id="faf823f6-65cf-42a9-a64d-0627a74810cc"
+				name="ToPort"
+				refimgid="0f4aa14f-7474-42ed-90bc-54789d45a1c1"
+				refpath="/dom[@domain='newtours.demoaut.com']/body/div/table/tbody/tr/td[2]/table/tbody/tr[4]/td/table/tbody/tr/td[2]/table/tbody/tr[5]/td/form/table/tbody/tr[6]/td[2]/select[@name='toPort']"
+				searchtimeout="30000ms">
+					/dom[@domain='newtours.demoaut.com']//table/?/?/tr/td[2]/table/tbody/tr[4]/?/?/table/?/?/tr/td[2]/table/tbody/tr[5]/?/?/form[@name='findflight']/table/tbody/tr[6]/td[2]/select[@name='toPort']
+				</item>
+				<item
+				addcaps="unknown,webelement,inputtag"
+				capname="inputtag"
+				id="bd727743-0bef-468b-b8ae-f11d67e35e97"
+				name="BusinessClass"
+				refimgid="2be4398e-0e0c-4ce2-b460-1b8bee32ec10"
+				refpath="/dom[@domain='newtours.demoaut.com']/body/div/table/tbody/tr/td[2]/table/tbody/tr[4]/td/table/tbody/tr/td[2]/table/tbody/tr[5]/td/form/table/tbody/tr[9]/td[2]/font/font/input[@name='servClass' and @type='radio' and @value='Business']"
+				searchtimeout="30000ms">
+					/dom[@domain='newtours.demoaut.com']//table/?/?/tr/td[2]/table/tbody/tr[4]/?/?/table/?/?/tr/td[2]/table/tbody/tr[5]/?/?/form[@name='findflight']/table/tbody/tr[9]/td[2]/?/?/font[@innertext~'^Economy\ class\ \ \ \ \ \ \ \ \ \ ']/input[@type='radio' and @value='Business']
+				</item>
+				<basepath>
+					/dom[@domain='newtours.demoaut.com']//table/?/?/tr/td[2]/table/tbody/tr[4]/?/?/table/?/?/tr/td[2]/table/tbody/tr[5]/?/?/form[@name='findflight']/table
+				</basepath>
+			</folder>
+			<folder
+			capname="table"
+			id="4f4cd40e-ec23-4ef8-b2a8-a7c9d7eead36"
+			isrooted="True"
+			name="FlightConfirmation"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="unknown,webelement,atag"
+				capname="atag"
+				id="3f37da2f-a496-4980-b160-faef5eb76496"
+				name="SIGNOFF"
+				refimgid="9026b1f3-f06a-46f2-81e1-65a1f45117f7"
+				refpath="/dom[@domain='newtours.demoaut.com']/body/div/table/tbody/tr/td[2]/table/tbody/tr[2]/td/table/tbody/tr/td[1]/a[@innertext='SIGN-OFF']"
+				searchtimeout="30000ms">
+					/dom[@domain='newtours.demoaut.com']/body/?/?/table/?/?/tr/td[2]/table/tbody/tr[2]/?/?/table/?/?/tr/td[1]/a[@innertext='SIGN-OFF']
+				</item>
+				<item
+				addcaps="unknown,webelement,inputtag"
+				capname="inputtag"
+				id="350e1ef1-6d0a-4a6e-a068-8e8608de991c"
+				name="SecurePurachse"
+				refimgid="2f25ef05-2c42-48ef-81ed-3a6849cd59d1"
+				refpath="/dom[@domain='newtours.demoaut.com']/body/div/table/tbody/tr/td[2]/table/tbody/tr[4]/td/table/tbody/tr/td[2]/table/tbody/tr[5]/td/form/table/tbody/tr[24]/td/input[@name='buyFlights']"
+				searchtimeout="30000ms">
+					/dom[@domain='newtours.demoaut.com']/body/?/?/table/?/?/tr/td[2]/table/tbody/tr[4]/?/?/table/?/?/tr/td[2]/table/tbody/tr[5]/?/?/form[@name='bookflight']/table/tbody/tr[24]/?/?/input[@name='buyFlights']
+				</item>
+				<item
+				addcaps="unknown,webelement,inputtag"
+				capname="inputtag"
+				id="5ff90230-e739-4257-9f3a-e41c1aec67a0"
+				name="PassFirst0"
+				refimgid="37f97840-52a5-49e3-9979-6a88da88e994"
+				refpath="/dom[@domain='newtours.demoaut.com']/body/div/table/tbody/tr/td[2]/table/tbody/tr[4]/td/table/tbody/tr/td[2]/table/tbody/tr[5]/td/form/table/tbody/tr[4]/td/table/tbody/tr[2]/td[1]/input[@name='passFirst0']"
+				searchtimeout="30000ms">
+					/dom[@domain='newtours.demoaut.com']/body/?/?/table/?/?/tr/td[2]/table/tbody/tr[4]/?/?/table/?/?/tr/td[2]/table/tbody/tr[5]/?/?/form[@name='bookflight']/table/tbody/tr[4]/?/?/table/tbody/tr[2]/td[1]/input[@name='passFirst0']
+				</item>
+				<item
+				addcaps="unknown,webelement,inputtag"
+				capname="inputtag"
+				id="2c89ad0d-a494-475f-a6ea-a7a3a18d311a"
+				name="PassLast0"
+				refimgid="5aaf7163-7fb4-4d50-adab-4ae84d587b17"
+				refpath="/dom[@domain='newtours.demoaut.com']/body/div/table/tbody/tr/td[2]/table/tbody/tr[4]/td/table/tbody/tr/td[2]/table/tbody/tr[5]/td/form/table/tbody/tr[4]/td/table/tbody/tr[2]/td[2]/input[@name='passLast0']"
+				searchtimeout="30000ms">
+					/dom[@domain='newtours.demoaut.com']/body/?/?/table/?/?/tr/td[2]/table/tbody/tr[4]/?/?/table/?/?/tr/td[2]/table/tbody/tr[5]/?/?/form[@name='bookflight']/table/tbody/tr[4]/?/?/table/tbody/tr[2]/td[2]/input[@name='passLast0']
+				</item>
+				<item
+				addcaps="unknown,webelement,inputtag"
+				capname="inputtag"
+				id="96ab21a8-b1be-4e10-9020-64716750b466"
+				name="PassFirst1"
+				refimgid="8526b92c-bdd0-46e6-b9a1-b4dc35f30317"
+				refpath="/dom[@domain='newtours.demoaut.com']/body/div/table/tbody/tr/td[2]/table/tbody/tr[4]/td/table/tbody/tr/td[2]/table/tbody/tr[5]/td/form/table/tbody/tr[5]/td/table/tbody/tr[2]/td[1]/input[@name='passFirst1']"
+				searchtimeout="30000ms">
+					/dom[@domain='newtours.demoaut.com']/body/?/?/table/?/?/tr/td[2]/table/tbody/tr[4]/?/?/table/?/?/tr/td[2]/table/tbody/tr[5]/?/?/form[@name='bookflight']/table/tbody/tr[5]/?/?/table/tbody/tr[2]/td[1]/input[@name='passFirst1']
+				</item>
+				<item
+				addcaps="unknown,webelement,inputtag"
+				capname="inputtag"
+				id="2f1407c3-6739-4462-a599-8201bf609e1d"
+				name="PassLast1"
+				refimgid="56d46c95-88f5-4536-b7cd-06a7037efe43"
+				refpath="/dom[@domain='newtours.demoaut.com']/body/div/table/tbody/tr/td[2]/table/tbody/tr[4]/td/table/tbody/tr/td[2]/table/tbody/tr[5]/td/form/table/tbody/tr[5]/td/table/tbody/tr[2]/td[2]/input[@name='passLast1']"
+				searchtimeout="30000ms">
+					/dom[@domain='newtours.demoaut.com']/body/?/?/table/?/?/tr/td[2]/table/tbody/tr[4]/?/?/table/?/?/tr/td[2]/table/tbody/tr[5]/?/?/form[@name='bookflight']/table/tbody/tr[5]/?/?/table/tbody/tr[2]/td[2]/input[@name='passLast1']
+				</item>
+				<item
+				addcaps="unknown,webelement,inputtag"
+				capname="inputtag"
+				id="d79a97cf-413e-4e29-909e-d7d14ab11175"
+				name="Creditnumber"
+				refimgid="14e653bf-36eb-4c2d-bd4a-d31e5a24d6ac"
+				refpath="/dom[@domain='newtours.demoaut.com']/body/div/table/tbody/tr/td[2]/table/tbody/tr[4]/td/table/tbody/tr/td[2]/table/tbody/tr[5]/td/form/table/tbody/tr[7]/td/table/tbody/tr[2]/td[2]/input[@name='creditnumber']"
+				searchtimeout="30000ms">
+					/dom[@domain='newtours.demoaut.com']/body/?/?/table/?/?/tr/td[2]/table/tbody/tr[4]/?/?/table/?/?/tr/td[2]/table/tbody/tr[5]/?/?/form[@name='bookflight']/table/tbody/tr[7]/?/?/table/tbody/tr[2]/td[2]/input[@name='creditnumber']
+				</item>
+				<item
+				addcaps="unknown,webelement,inputtag"
+				capname="inputtag"
+				id="3b06d6e6-04af-4ec5-a053-006e05f2146e"
+				name="FindFlights"
+				refimgid="cbec6714-9cff-4ff1-a949-e08762747e6e"
+				refpath="/dom[@domain='newtours.demoaut.com']/body/div/table/tbody/tr/td[2]/table/tbody/tr[4]/td/table/tbody/tr/td[2]/table/tbody/tr[5]/td/form/table/tbody/tr[14]/td/input[@name='findFlights']"
+				searchtimeout="30000ms">
+					/dom[@domain='newtours.demoaut.com']/body/?/?/table/?/?/tr/td[2]/table/tbody/tr[4]/?/?/table/?/?/tr/td[2]/table/tbody/tr[5]/?/?/form[@name='findflight']/table/tbody/tr[14]/?/?/input[@name='findFlights']
+				</item>
+				<item
+				addcaps="unknown,webelement,inputtag"
+				capname="inputtag"
+				id="22d36be1-0e27-4797-856e-fb9217c545b1"
+				name="ReserveFlights"
+				refimgid="7c101a2a-4e13-4596-ba55-546b337e7ea5"
+				refpath="/dom[@domain='newtours.demoaut.com']/body/div/table/tbody/tr/td[2]/table/tbody/tr[4]/td/table/tbody/tr/td[2]/table/tbody/tr[5]/td/form/p/input[@name='reserveFlights']"
+				searchtimeout="30000ms">
+					/dom[@domain='newtours.demoaut.com']/body/?/?/table/?/?/tr/td[2]/table/tbody/tr[4]/?/?/table/?/?/tr/td[2]/table/tbody/tr[5]/?/?/form[@name='results']/p/input[@name='reserveFlights']
+				</item>
+				<item
+				addcaps="unknown,webelement,imgtag"
+				capname="imgtag"
+				id="7c33b927-26de-453b-8ca8-77cb168d1274"
+				name="Textfield_SignOn"
+				refimgid="5b1195dc-b7ea-48d9-bb52-df8e55314710"
+				refpath="/dom[@domain='newtours.demoaut.com']/body/div/table/tbody/tr/td[2]/table/tbody/tr[4]/td/table/tbody/tr/td[2]/table/tbody/tr[1]/td/img[@src='http://newtours.demoaut.com/images/masts/mast_signon.gif']"
+				searchtimeout="30000ms">
+					/dom[@domain='newtours.demoaut.com']/body/?/?/table/?/?/tr/td[2]/table/tbody/tr[4]/?/?/table/?/?/tr/td[2]/table/tbody/tr[1]/?/?/img[@src='http://newtours.demoaut.com/images/masts/mast_signon.gif']
+				</item>
+				<item
+				addcaps="unknown,webelement,imgtag"
+				capname="imgtag"
+				id="703940d9-b8f6-4300-a82b-02b557e5aa3b"
+				name="Btn_Logout"
+				refimgid="8337655b-96d2-4b46-8b88-b46c7b3bc01b"
+				refpath="/dom[@domain='newtours.demoaut.com']/body/div/table/tbody/tr/td[2]/table/tbody/tr[4]/td/table/tbody/tr[1]/td[2]/table/tbody/tr[7]/td/table/tbody/tr/td[3]/a[@href='http://newtours.demoaut.com/mercurysignoff.php?osCsid=9a5b7345abc2e18f245bcefa74eea98d']/img[@src='http://newtours.demoaut.com/images/forms/Logout.gif']"
+				searchtimeout="30000ms">
+					/dom[@domain='newtours.demoaut.com']/body/?/?/table/?/?/tr/td[2]/table/tbody/tr[4]/?/?/table/tbody/tr[1]/td[2]/table/tbody/tr[7]/?/?/table/?/?/tr/td[3]/a[@href~'^http://newtours\.demoaut\.c']/img[@src='http://newtours.demoaut.com/images/forms/Logout.gif']
+				</item>
+				<item
+				addcaps="unknown,webelement,imgtag"
+				capname="imgtag"
+				id="6978e879-6892-4d81-8ab8-bfc3c4eac43b"
+				name="Textfield_FlightFinder"
+				refimgid="5a3e6f84-3c9b-4ec8-a0cf-7fa89834cbe0"
+				refpath="/dom[@domain='newtours.demoaut.com']/body/div/table/tbody/tr/td[2]/table/tbody/tr[4]/td/table/tbody/tr/td[2]/table/tbody/tr[1]/td/img[@src='http://newtours.demoaut.com/images/masts/mast_flightfinder.gif']"
+				searchtimeout="30000ms">
+					/dom[@domain='newtours.demoaut.com']/body/?/?/table/?/?/tr/td[2]/table/tbody/tr[4]/?/?/table/?/?/tr/td[2]/table/tbody/tr[1]/?/?/img[@src='http://newtours.demoaut.com/images/masts/mast_flightfinder.gif']
+				</item>
+				<item
+				addcaps="unknown,webelement,fonttag"
+				capname="fonttag"
+				id="ff06e066-6071-4a92-bab9-3fef007eafb2"
+				name="Text_Confirmation"
+				refimgid="c2031b71-495a-4a6e-be28-ac8de03ed627"
+				refpath="/dom[@domain='newtours.demoaut.com']/body/div/table/tbody/tr/td[2]/table/tbody/tr[4]/td/table/tbody/tr[1]/td[2]/table/tbody/tr[5]/td/table/tbody/tr[1]/td/table/tbody/tr/td[1]/b/font/font/b/font[@innertext=' Flight                   Confirmation # 2017-06-01232417']"
+				searchtimeout="30000ms">
+					/dom[@domain='newtours.demoaut.com']/body/?/?/table/?/?/tr/td[2]/table/tbody/tr[4]/?/?/table/tbody/tr[1]/td[2]/table/tbody/tr[5]/?/?/table/tbody/tr[1]/?/?/table/?/?/tr/td[1]//font[@innertext~'^&#160;Flight\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ ']
+				</item>
+				<item
+				addcaps="unknown,webelement,selecttag"
+				capname="selecttag"
+				id="f8efbe46-9d97-45d5-85c1-821d8b9a5a64"
+				name="CreditCard"
+				refimgid="2796cb89-674a-423f-8015-875ba1e60cba"
+				searchtimeout="30000ms">
+					/dom[@domain='newtours.demoaut.com']/body/?/?/table/?/?/tr/td[2]/table/tbody/tr[4]/?/?/table/?/?/tr/td[2]/table/tbody/tr[5]/?/?/form[@name='bookflight']/table/tbody/tr[7]/?/?/table/tbody/tr[2]/td[1]/select[@name='creditCard']
+				</item>
+				<item
+				addcaps="unknown,webelement,inputtag"
+				capname="inputtag"
+				id="7db8777f-0df5-4195-a73f-b2d9596cb7fe"
+				name="CcFrstName"
+				refimgid="c6d32fe4-da05-4815-9480-bd83da0dde77"
+				searchtimeout="30000ms">
+					/dom[@domain='newtours.demoaut.com']/body/?/?/table/?/?/tr/td[2]/table/tbody/tr[4]/?/?/table/?/?/tr/td[2]/table/tbody/tr[5]/?/?/form[@name='bookflight']/table/tbody/tr[8]/?/?/table/tbody/tr[2]/td[1]/input[@name='cc_frst_name']
+				</item>
+				<item
+				addcaps="unknown,webelement,inputtag"
+				capname="inputtag"
+				id="6aba7d08-4293-4757-ae5a-a7489c062b16"
+				name="CcMidName"
+				refimgid="9132f8d2-3e0e-4712-a56b-bb67e2cd469b"
+				searchtimeout="30000ms">
+					/dom[@domain='newtours.demoaut.com']/body/?/?/table/?/?/tr/td[2]/table/tbody/tr[4]/?/?/table/?/?/tr/td[2]/table/tbody/tr[5]/?/?/form[@name='bookflight']/table/tbody/tr[8]/?/?/table/tbody/tr[2]/td[2]/input[@name='cc_mid_name']
+				</item>
+				<item
+				addcaps="unknown,webelement,inputtag"
+				capname="inputtag"
+				id="b2df0653-1098-4ea9-b445-d198b8c5516a"
+				name="CcLastName"
+				refimgid="c04e68a0-27a7-4442-b582-c2abb59bbd88"
+				searchtimeout="30000ms">
+					/dom[@domain='newtours.demoaut.com']/body/?/?/table/?/?/tr/td[2]/table/tbody/tr[4]/?/?/table/?/?/tr/td[2]/table/tbody/tr[5]/?/?/form[@name='bookflight']/table/tbody/tr[8]/?/?/table/tbody/tr[2]/td[3]/input[@name='cc_last_name']
+				</item>
+				<item
+				addcaps="unknown,webelement,fonttag"
+				capname="fonttag"
+				id="6aeafda3-bf8e-4ceb-869b-1751cc05cfdc"
+				name="Text_FlightNo"
+				refimgid="91568d39-a039-4806-8f28-9f604203a1eb"
+				refpath="/dom[@domain='newtours.demoaut.com']/body/div/table/tbody/tr/td[2]/table/tbody/tr[4]/td/table/tbody/tr[1]/td[2]/table/tbody/tr[5]/td/table/tbody/tr[1]/td/table/tbody/tr/td[1]/b/font/font/b/font[@innertext=' Flight                   Confirmation # 2017-06-07214859']"
+				searchtimeout="30000ms">
+					/dom[@domain='newtours.demoaut.com']/body/?/?/table/?/?/tr/td[2]/table/tbody/tr[4]/?/?/table/tbody/tr[1]/td[2]/table/tbody/tr[5]/?/?/table/tbody/tr[1]/?/?/table/?/?/tr/td[1]//font[@innertext~'^&#160;Flight\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ ']
+				</item>
+				<item
+				addcaps="unknown,webelement,fonttag"
+				capname="fonttag"
+				id="506c6e40-f57e-47b2-8ba5-4eb8cabaa4de"
+				name="TotalPriceIncludin"
+				refimgid="5487a419-cef4-452e-b60d-5719bcfc5747"
+				refpath="/dom[@domain='newtours.demoaut.com']/body/div/table/tbody/tr/td[2]/table/tbody/tr[4]/td/table/tbody/tr[1]/td[2]/table/tbody/tr[5]/td/table/tbody/tr[12]/td/table/tbody/tr[2]/td[1]/b/font/font/b/font[@innertext='Total                   Price (including taxes):  ']"
+				searchtimeout="30000ms">
+					/dom[@domain='newtours.demoaut.com']/body/?/?/table/?/?/tr/td[2]/table/tbody/tr[4]/?/?/table/tbody/tr[1]/td[2]/table/tbody/tr[5]/?/?/table/tbody/tr[12]/?/?/table/tbody/tr[2]/td[1]//font[@innertext~'^Total\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ ']
+				</item>
+				<item
+				addcaps="unknown,webelement,atag"
+				capname="atag"
+				id="daee7fef-fff6-4e60-9230-f37eb0b436f2"
+				name="SIGNON"
+				refimgid="ce7fc3fe-7710-4fb9-a4b8-6328e6477c0a"
+				refpath="/dom[@domain='newtours.demoaut.com']/body/div/table/tbody/tr/td[2]/table/tbody/tr[2]/td/table/tbody/tr/td[1]/a[@innertext='SIGN-ON']"
+				searchtimeout="30000ms">
+					/dom[@domain='newtours.demoaut.com']/body/?/?/table/?/?/tr/td[2]/table/tbody/tr[2]/?/?/table/?/?/tr/td[1]/a[@innertext='SIGN-ON']
+				</item>
+				<basepath>
+					/dom[@domain='newtours.demoaut.com']/body/?/?/table/?/?/tr/td[2]/table
+				</basepath>
+			</folder>
+			<basepath>
+				/dom[@domain='newtours.demoaut.com']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>

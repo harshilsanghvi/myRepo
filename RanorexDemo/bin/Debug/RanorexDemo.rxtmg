@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modulegroupdoc
+rxversion="7.0">
+  <testsuiteentryhierarchy>
+    <flatlistofchildren>
+      <modulegroups
+      name="RanorexDemo"
+      id="e082f59a-d388-480f-a729-24525651ec45"/>
+    </flatlistofchildren>
+    <childhierarchy>
+      <modulegroups
+      name="RanorexDemo"
+      id="e082f59a-d388-480f-a729-24525651ec45"/>
+    </childhierarchy>
+  </testsuiteentryhierarchy>
+</modulegroupdoc>

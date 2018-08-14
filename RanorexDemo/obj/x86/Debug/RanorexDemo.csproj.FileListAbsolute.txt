@@ -1,0 +1,8 @@
+D:\Users\hsanghvi\Desktop\RanorexDemo\RanorexDemo\bin\Debug\RanorexDemo.rxtmg
+D:\Users\hsanghvi\Desktop\RanorexDemo\RanorexDemo\bin\Debug\RanorexDemo.rxtst
+D:\Users\hsanghvi\Desktop\RanorexDemo\RanorexDemo\bin\Debug\RanorexDemo.exe.config
+D:\Users\hsanghvi\Desktop\RanorexDemo\RanorexDemo\bin\Debug\RanorexDemo.exe
+D:\Users\hsanghvi\Desktop\RanorexDemo\RanorexDemo\bin\Debug\RanorexDemo.pdb
+D:\Users\hsanghvi\Desktop\RanorexDemo\RanorexDemo\obj\x86\Debug\RanorexDemo.csprojResolveAssemblyReference.cache
+D:\Users\hsanghvi\Desktop\RanorexDemo\RanorexDemo\obj\x86\Debug\RanorexDemo.exe
+D:\Users\hsanghvi\Desktop\RanorexDemo\RanorexDemo\obj\x86\Debug\RanorexDemo.pdb
